@@ -1,0 +1,5 @@
+3: import java.io.IOException;
+4: import java.io.InputStream;
+5: 
+6: /*
+7:  * 입출력 스트림: 데이터 이동 통로, 단방향(입,출력 구분)

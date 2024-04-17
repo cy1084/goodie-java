@@ -25,6 +25,7 @@ public class BufferedReaderEx1 {
 
 		fw.flush();
 		fw.close();
+		
 		br.close();
 
 		// InputStreamEx1.java 소스에 라인 번호 출력하기
