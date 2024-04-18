@@ -15,7 +15,8 @@ public class TwoArrayEx3 {
 		System.out.println("arr 배열의 행과 열의 합계 출력");
 
 		int[] colSum = new int[maxCol];
-		// = int[] colSum = new int[arr[1].length]; //colSum.length: 5
+		// = int[] colSum = new int[arr[1].length]; 
+		//colSum.length: 5
 		for (int i = 0; i < arr.length; i++) {
 			int sum = 0;
 			for (int j = 0; j < arr[i].length; j++) {

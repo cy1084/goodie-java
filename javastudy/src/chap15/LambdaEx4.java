@@ -42,11 +42,20 @@ class Student {
 	public String getMajor() {
 		return major;
 	}
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", eng=" + eng + ", math=" + math + ", major=" + major + "]";
+	}
+	
 }
 
 public class LambdaEx4 {
-	static List<Student> list = Arrays.asList(new Student("홍길동", 90, 80, "경영"), new Student("김삿갓", 95, 70, "컴공"),
-			new Student("이몽룡", 85, 75, "통계"));
+	static List<Student> list = Arrays.asList(
+			new Student("홍길동", 90, 80, "경영"), 
+			new Student("김삿갓", 95, 70, "컴공"),
+			new Student("이몽룡", 85, 75, "통계")
+		);
 
 	public static void main(String[] args) {
 		System.out.print("학생 이름: ");

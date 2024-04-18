@@ -8,6 +8,7 @@ package chap11;
  * 	 String s1=new String("문자열");
  * - final 클래스: 다른 클래스의 부모 클래스 불가(상속 x)
  */
+
 public class StringEx1 {
 	public static void main(String[] args) {
 		String s1 = "abc"; // 상수풀에 객체 생성
