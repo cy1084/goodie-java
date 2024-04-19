@@ -13,6 +13,7 @@ import java.awt.print.Printable;
  * 6. 참조 자료형임
  * 
  * 
+
  * 인터페이스 멤버
  * 상수: [public static final] int NUM=100;
  * 추상메소드: [public abstract] int method(int a);

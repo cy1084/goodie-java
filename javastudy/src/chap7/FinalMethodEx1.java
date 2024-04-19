@@ -4,7 +4,7 @@ package chap7;
  * final 메소드
  * - 변경 불가-> 재정의 불가, 오버라이딩 불가
  * 
- * cf. abstract 메소드-> 오버라이딩 강제
+ * cf. abstract 메소드-> 오버라이딩 강제(final과 반대)
  */
 
 class FinalMethod {

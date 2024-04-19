@@ -3,7 +3,7 @@ package chap11;
 /*
  * Object 클래스 : equals 메서드
  * equals 메서드 : 같은 내용인지를 비교
- *               Object 클래스의 equals 메서드는 == 같은 기능을함.
+ *               Object 클래스의 equals 메서드는 == 같은 기능을 함.
  *               => 내용 비교를 위해서는 오버라이딩 필요
  * == : 같은 객체 여부 리턴              
  */

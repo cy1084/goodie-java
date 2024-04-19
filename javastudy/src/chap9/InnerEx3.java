@@ -38,10 +38,10 @@ class Outer3 extends Pouter{
 			//System.out.println("this.iv2= "+this.iv2);
 			//외부 클래스 멤버인 iv2 변수는 this로 접근 불가
 			
-			System.out.println("Outer3.iv= "+Outer3.this.iv); //10
+			System.out.println("Outer3.this.iv= "+Outer3.this.iv); //10
 			//외부클래스 멤버 접근: 외부클래스명.this.멤버명
 			
-			System.out.println("Outer3.iv= "+Outer3.super.iv); //0
+			System.out.println("Outer3.super.iv= "+Outer3.super.iv); //0
 			//외부클래스의 상위클래스 멤버 접근: 외부클래스명.super.멤버명
 		}
 	}
